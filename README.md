@@ -1,6 +1,7 @@
 # 2_uzd
 
 *Programos release'ai:*
+
 V0.3
 
 - Atliktas refactoring'as: nauji duomenų tipai ir funkcijos perkeltos į atskirus .h ir .cpp failus.
