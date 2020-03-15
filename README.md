@@ -40,7 +40,7 @@ V0.5
                         
 - Testo pastebėjimai:
   - Tiek vector, tiek deque įrašų apdorojimo laikas didėja didėjant kiekvieno studento gautų namų darbų pažymių skaičiui. Skirtumai žmogaus akimi pastebimi tik prie didesnių įrašų kiekio.
-  - Įrašų apdorojimo laikas yra lygiagretus įrašų skaičiui (jeigu įrašų kiekis padidėja 10 kartų, tai ir jų apdorojimas užtruks apie ą0 kartų ilgiau).
+  - Įrašų apdorojimo laikas yra lygiagretus įrašų skaičiui (jeigu įrašų kiekis padidėja 10 kartų, tai ir jų apdorojimas užtruks apie 10 kartų ilgiau).
   - Deque užtrunka apie 3-4 kartus ilgiau grupuojant įrašus į grupes, nei vector.
   - Deque įrašų nuskaitymo laikas didėja lėčiau, nei vector, daugėjant įrašų skaičiui. Deque užtrunka ilgiau nuskaitant po 1 namų darbą, bet skaitant 3 pralenkia vector konteinerį. 
   
