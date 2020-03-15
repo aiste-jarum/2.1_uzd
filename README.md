@@ -12,7 +12,7 @@ V0.5
              ----------------------------------------------------------------------
              |                             VECTOR                                 |
              |--------------------------------------------------------------------|
-             |1 namų darbas          |  2 namų darbai      |    3 namų darbai     |
+             |    1 namų darbas     |   2 namų darbai      |    3 namų darbai     |
              |--------------------------------------------------------------------|
              |   N       /  G       |    N      /  G       |     N     /    G     | Nuskaitymas/grupavimas 
              | 0.002992 s/  0 s     | 0.00399  s/0.001001 s| 0.006961 s/    0    s| 1000 įrašų  
@@ -28,7 +28,7 @@ V0.5
              ----------------------------------------------------------------------
              |                             DEQUE                                  |
              |--------------------------------------------------------------------|
-             |1 namų darbas          |  2 namų darbai      |    3 namų darbai     |
+             |    1 namų darbas     |   2 namų darbai      |    3 namų darbai     |
              |--------------------------------------------------------------------|
              |   N       /  G       |    N      /  G       |     N     /    G     | Nuskaitymas/grupavimas
              | 0.003988 s/  0 s     | 0.003989 s/     0   s| 0.004994 s/    0    s| 1000 įrašų 
@@ -38,7 +38,16 @@ V0.5
              |40.1279   s/0.882708 s|55.9054   s/1.01355  s|59.3479   s/0.958949 s| 10000000 įrašų
              ______________________________________________________________________
                         
-                        
+- Testo pastebėjimai:
+  - Tiek vector, tiek deque įrašų apdorojimo laikas didėja didėjant kiekvieno studento gautų namų darbų pažymių skaičiui. Skirtumai žmogaus akimi pastebimi tik prie didesnių įrašų kiekio.
+  - Įrašų apdorojimo laikas yra lygiagretus įrašų skaičiui (jeigu įrašų kiekis padidėja 10 kartų, tai ir jų apdorojimas užtruks apie ą0 kartų ilgiau).
+  - Deque užtrunka apie 3-4 kartus ilgiau grupuojant įrašus į grupes, nei vector.
+  - Deque įrašų nuskaitymo laikas didėja lėčiau, nei vector, daugėjant įrašų skaičiui. Deque užtrunka ilgiau nuskaitant po 1 namų darbą, bet skaitant 3 pralenkia vector konteinerį. 
+  
+- Testavimo sistema:
+  - Intel (R) Core(TM) i5-8265U CPU @ 1.60 GHz;
+  - 8.00 GB RAM;
+  - WDC PC SN520 SDAPNUW-256G-1002 SSD;
                         
                         
                         
