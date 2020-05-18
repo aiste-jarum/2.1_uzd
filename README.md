@@ -4,7 +4,7 @@
 
 # V2.0
 - Pridėta dokumentacija, daryta su doxyen.
-- Patestuoti kai kurie programos kodo gabaliukai su Catch framework.
+- Patestuoti kai kurie programos kodo gabaliukai su Catch framework. Testavime aprašyti kai kurie programos gabaliukai (arba iš jų padarytos funkcijos) ir patikrintas jų veikimas. Visos testų sąlygos atitiktos (nėra testų, kurie grąžintų neigiamą reikšmę).
 
 - Failai:
 1) main.cpp - pagrindinis studentų klasės failas;
