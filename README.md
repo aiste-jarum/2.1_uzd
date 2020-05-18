@@ -6,8 +6,22 @@
 - Pridėta dokumentacija, daryta su doxyen.
 - Patestuoti kai kurie programos kodo gabaliukai su Catch framework.
 
-Failai:
-- 
+- Failai:
+1) main.cpp - pagrindinis studentų klasės failas;
+2) test_desc.cpp - testavimo funkcijų apra4šymo failas;
+3) catch.hpp - testavimui naudojamo framework bibliotekos failas;
+4) makefile - kompiliavimo failas;
+5) dokumentacijos aplankas - programos dokumentacija, sugeneruota su doxygen.
+
+- Instrukcija:
+1) Parsisiųsti zip failą, jį išpakuoti;
+2) Vesti norimas komandas iš žemiau esančio komadų sarašo (jos aprašytos makefile faile).
+
+|Vardas     |Funkcija                                                    |
+|-----------|------------------------------------------------------------|
+|main |kompiliuoja ir linkina main.cpp failą                 |
+|test      |kompiliuoja ir linkina test_desc.cpp ir catch.hpp failą                      |
+|clean      | ištrina sukompiliuotus failus                              |
 
 # V1.5
 - Pridėta nauja bazinė klasė "zmones", studentų klasė padaryta išvestine iš žmonių klasės.
